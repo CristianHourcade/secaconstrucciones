@@ -1,0 +1,7 @@
+.servicios , .productos{
+    background-color: rgba(240, 248, 255, 0.137);
+}
+.list-group-flush li{
+    background-color: transparent!important;
+
+}
