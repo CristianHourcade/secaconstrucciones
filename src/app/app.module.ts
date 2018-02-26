@@ -12,7 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BorradorComponent } from './borrador/borrador.component';
 import {HttpClientModule} from '@angular/common/http';
-import { AbmServiciosComponent } from './abm-servicios/abm-servicios.component';
+// import { AbmServiciosComponent } from './abm-servicios/abm-servicios.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { AbmServiciosComponent } from './abm-servicios/abm-servicios.component';
     BrowserModule,
     HttpModule,
     HttpClientModule,
-    AbmServiciosComponent,
+    // AbmServiciosComponent,
     BrowserModule,
     FormsModule,
     NgbModule.forRoot()
