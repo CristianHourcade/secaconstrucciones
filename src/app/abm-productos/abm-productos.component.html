@@ -1,3 +1,41 @@
-<p>
-  abm-productos works!
-</p>
+<form>
+  <div class="mx-auto col-md-5">
+    <div class="text-center mb-4">
+      <button type="submit" class="btn btn-success mx-4">Agregar</button>
+      <button type="submit" class="btn btn-warning mx-4">Modificar</button>
+      <button type="submit" class="btn btn-danger mx-4">Eliminar</button>
+    </div>
+    <div class="form-group">
+      <p class="text-white">Id</p>
+      <input type="text" class="form-control" id="" placeholder="Id">
+    </div>
+    <div class="form-group">
+      <p class="text-white">Nombre</p>
+      <input type="text" class="form-control" id="" placeholder="Nombre">
+    </div>
+    <div class="form-group">
+      <p class="text-white">Código</p>
+      <input type="text" class="form-control" id="" placeholder="Código">
+    </div>
+
+    <div ngbDropdown class="d-inline-block col-md-12 my-3 px-0">
+      <button class="btn btn-default btn-block col-md-12 text-left" id="" ngbDropdownToggle>Categoría</button>
+      <div class="dropdown-menu dropdown-menu-right col-md-12" aria-labelledby="dropdownBasic1" ngbDropdownMenu>
+        <ul class=" col-md-12">
+          <li class="list-group-item">categoria 1</li>
+          <li class="list-group-item">categoria 2</li>
+          <li class="list-group-item">categoria 3</li>
+        </ul>
+      </div>
+    </div>
+    <div class="form-group">
+      <p class="text-white">Precio</p>
+      <input type="text" class="form-control" id="" placeholder="Precio">
+    </div>
+    <div class="form-group">
+      <p class="text-white">Estado</p>
+      <input type="text" class="form-control" id="" placeholder="Estado">
+    </div>
+  </div>
+
+</form>
